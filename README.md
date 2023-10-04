@@ -13,3 +13,7 @@ To activate in windows using powershell `.\env\Scripts\Activate.ps1`
 ## Run
 
 `python check_network.py`
+
+## Screenshots
+
+![App Screenshot](https://imgur.com/NIBOcHg.jpg)
