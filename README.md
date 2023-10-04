@@ -1,8 +1,10 @@
 # Network tracker
 
-## Create venv
+## Create venv and active
 
 `python -m venv env`
+
+To activate in windows using powershell `.\env\Scripts\Activate.ps1`
 
 ## Install dependencies
 

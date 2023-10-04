@@ -1,0 +1,1 @@
+pyinstaller -y -F -w -n "Network_Track" "check_network.py"
