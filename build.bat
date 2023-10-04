@@ -1,0 +1,1 @@
+pyinstaller -y -F -c -n "Network_Track" --hiddenimport "psutil" "check_network.py"
