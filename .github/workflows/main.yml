@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
     - name: Fix bug typing
-      run: pip uninstall typing
+      run: pip uninstall typing -y
     - name: Build
       run: ./build.bat
     - uses: actions/upload-artifact@v3
