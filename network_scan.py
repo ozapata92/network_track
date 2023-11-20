@@ -45,7 +45,8 @@ class NetworkScanner:
 if __name__ == "__main__":
     # Poner tu IP o red a escanear (x.x.x.x o x.x.x.x/yy)
     # Si tarda mucho, poner la IP objetivo para agilizarlo
-    target_network = '192.168.0.70'
+    #target_network = '192.168.0.1/24'
+    target_network = '192.168.0.XX'
     scanner = NetworkScanner(target_network)
     print("Iniciando escaneo de red...")
     scanner.scan_devices()
